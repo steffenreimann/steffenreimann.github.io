@@ -1,0 +1,40 @@
+.head {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.start_me {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.n_text {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.bottom_btns {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+body {
+    background-color: #333333 !important;
+    color: aqua !important;
+}
+
+.carHelper {
+    bottom: 32px;
+    position: fixed !important;
+    top: 15px;
+    left: 0px;
+    right: 0px;
+}
