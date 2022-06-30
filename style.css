@@ -37,6 +37,7 @@ body {
     top: 15px;
     left: 0px;
     right: 0px;
+    overflow-y: scroll;
 }
 
 .centerDiv {
@@ -44,4 +45,38 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -58%);
+}
+
+.prev_btn {
+    position: fixed;
+    top: 50%;
+    background-color: #33333300;
+    border: 0px;
+    left: 25px;
+}
+
+.next_btn {
+    position: fixed;
+    right: 25px;
+    top: 50%;
+    background-color: #33333300;
+    border: 0px;
+
+}
+
+.carousel-indicators {
+    position: fixed !important;
+    right: 0 !important;
+    transform: translate(-50%, 0px);
+    bottom: 50px !important;
+    left: 50% !important;
+    z-index: 2 !important;
+    display: flex !important;
+    justify-content: center !important;
+    padding: 0 !important;
+    padding: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    list-style: none !important;
 }
